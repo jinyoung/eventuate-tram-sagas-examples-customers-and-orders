@@ -1,4 +1,22 @@
 dependencies {
-    compile project(":common")
-    compile "io.eventuate.tram.core:eventuate-tram-spring-commands"
+    implementation project(":common")
+    implementation "io.eventuate.tram.core:eventuate-tram-spring-commands"
+
+
+    // implementation "io.eventuate.tram.core:eventuate-tram-spring-optimistic-locking"
+
+    // implementation "io.eventuate.tram.core:eventuate-tram-spring-jdbc-kafka"
+    // implementation "io.eventuate.tram.sagas:eventuate-tram-sagas-spring-orchestration-simple-dsl-starter"
+
+    // implementation "org.springframework.boot:spring-boot-starter-web"
+    // implementation "org.springframework.boot:spring-boot-starter-data-jpa"
+    // implementation "org.springframework.boot:spring-boot-starter-actuator"
+
+    // implementation ('org.postgresql:postgresql:9.4-1200-jdbc41') {
+    //     exclude group: "org.slf4j", module: "slf4j-simple"
+    // }
+
+    // testImplementation "io.eventuate.tram.sagas:eventuate-tram-sagas-spring-testing-support"
+    // testImplementation "junit:junit:4.12"
+    // testImplementation "org.mockito:mockito-core:2.23.0"
 }

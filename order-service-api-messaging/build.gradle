@@ -1,6 +1,6 @@
 dependencies {
-    compile project(":common")
-    compile project(":customer-service-api-messaging")
+    implementation project(":common")
+    implementation project(":customer-service-api-messaging")
 }
 
 

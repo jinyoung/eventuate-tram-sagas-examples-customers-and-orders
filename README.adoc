@@ -158,3 +158,9 @@ Don't hesitate to create an issue or see
 * https://groups.google.com/d/forum/eventuate-users[Mailing list]
 * https://eventuate-users.slack.com[Slack]. https://eventuateusersslack.herokuapp.com/[Get invite]
 * http://eventuate.io/contact.html[Contact us].
+
+
+
+== For Running Locally
+
+gradle bootRun --args='--server.port=8888'
